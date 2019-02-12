@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Ankit Garg",
+  "email": "ankitgarg307@gmail.com",
+  "batch": "Batch 5",
   "exercises": {
     "array-sum-test": {
       "completed": false,
