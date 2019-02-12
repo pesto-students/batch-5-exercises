@@ -19,6 +19,8 @@ describe('factorial test', () => {
 
   test('should find factorial of 0', () => {
     // delete next line and replace it with proper test
-    expect(true).toEqual(false);
+    const actual_fact_zero = factorial(0);
+    const expected_fact_zero = 1;
+    expect(actual_fact_zero).toEqual(expected_fact_zero);
   });
 });
