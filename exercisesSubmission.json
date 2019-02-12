@@ -4,12 +4,12 @@
   "batch": "Batch 5",
   "exercises": {
     "array-sum-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "create-object-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "every-nth-test": {
       "completed": false,
