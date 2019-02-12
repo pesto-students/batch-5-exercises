@@ -1,4 +1,3 @@
-
 function returnAFunctionTest(...args) {
   return args;
 }

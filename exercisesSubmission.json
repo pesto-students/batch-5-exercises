@@ -12,36 +12,36 @@
       "rating": 3
     },
     "every-nth-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "factorial-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "get-name-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "logical-operators": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "number-sum-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "return-a-function-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "return-a-string-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "return-true-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "stack-test": {
       "completed": false,
