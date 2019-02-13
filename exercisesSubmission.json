@@ -32,8 +32,8 @@
       "rating": null
     },
     "repeat-string-num-times": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "binary-agent": {
       "completed": false,
