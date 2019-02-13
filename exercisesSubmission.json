@@ -16,8 +16,8 @@
       "rating": null
     },
     "longest-word-in-string": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "telephone-check": {
       "completed": false,
