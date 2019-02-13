@@ -12,7 +12,7 @@
       "rating": null
     },
     "is-even": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "is-triangle": {
