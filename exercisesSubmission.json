@@ -1,23 +1,23 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mohd Hassaan",
+  "email": "sr.hassan23@gmail.com",
+  "batch": "5",
   "exercises": {
     "reverse-string": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "is-palindrome": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "diff-array": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "longest-word-in-string": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "telephone-check": {
       "completed": false,
@@ -32,20 +32,20 @@
       "rating": null
     },
     "repeat-string-num-times": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "binary-agent": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "bouncer": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "sum-all": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "pairwise": {
       "completed": false,
@@ -56,16 +56,16 @@
       "rating": null
     },
     "large-of-four": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "steamroll-array": {
       "completed": false,
       "rating": null
     },
     "rotated-string": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     }
   }
 }
