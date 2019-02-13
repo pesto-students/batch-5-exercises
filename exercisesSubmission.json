@@ -52,8 +52,8 @@
       "rating": null
     },
     "rectangle-diagonal": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "three-sum": {
       "completed": false,
