@@ -1,8 +1,14 @@
+function counterFactory() {
+  var x = 0;
 
-function counterFactory(...args) {
-  return args;
+  return {
+    increment: function increment() {
+      return ++x;
+    },
+    decrement: function increment() {
+      return ++x;
+    }
+  };
 }
 
-export {
-  counterFactory,
-};
+export { counterFactory };
