@@ -12,8 +12,8 @@
       "rating": null
     },
     "diff-array": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "longest-word-in-string": {
       "completed": false,
@@ -40,8 +40,8 @@
       "rating": 5
     },
     "bouncer": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "sum-all": {
       "completed": false,
