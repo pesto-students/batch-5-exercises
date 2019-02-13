@@ -1,5 +1,5 @@
 
-function applyOperator(...args) {
+function applyOperator(args) {
   // const operator = args.shift();
   // const arrayOfArgs = args;
   return args;
