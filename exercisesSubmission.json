@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Ankit Garg",
+  "email": "ankitgarg307@gmail.com",
+  "batch": "Batch 5",
   "exercises": {
     "factorial": {
       "completed": false,
@@ -36,12 +36,12 @@
       "rating": null
     },
     "apply-operator": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "boo-who": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "sum-fibs": {
       "completed": false,
