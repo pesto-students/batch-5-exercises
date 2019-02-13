@@ -1,10 +1,10 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Shalini",
+  "email": "shalinityagi64@gmail.com",
+  "batch": "05",
   "exercises": {
     "factorial": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "is-odd": {
