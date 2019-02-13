@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mohd Hassaan",
+  "email": "sr.hassan23@gmail.com",
+  "batch": "5",
   "exercises": {
     "reverse-string": {
       "completed": false,
@@ -16,8 +16,8 @@
       "rating": null
     },
     "longest-word-in-string": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "telephone-check": {
       "completed": false,
@@ -32,16 +32,16 @@
       "rating": null
     },
     "repeat-string-num-times": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "binary-agent": {
       "completed": false,
       "rating": null
     },
     "bouncer": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "sum-all": {
       "completed": false,
@@ -56,8 +56,8 @@
       "rating": null
     },
     "large-of-four": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "steamroll-array": {
       "completed": false,
