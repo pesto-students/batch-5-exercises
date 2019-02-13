@@ -1,6 +1,7 @@
 
 function booWho(...args) {
-  return args;
+  const booleanTypes = [true, false];
+  return booleanTypes.includes(args[0]);
 }
 
 export {
