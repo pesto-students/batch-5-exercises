@@ -44,8 +44,8 @@
       "rating": null
     },
     "sum-all": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "pairwise": {
       "completed": false,
