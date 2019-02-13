@@ -36,8 +36,8 @@
       "rating": null
     },
     "binary-agent": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "bouncer": {
       "completed": false,
