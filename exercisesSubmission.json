@@ -8,8 +8,8 @@
       "rating": 5
     },
     "is-odd": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "is-even": {
       "completed": true,
