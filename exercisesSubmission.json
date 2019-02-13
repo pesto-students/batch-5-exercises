@@ -40,8 +40,8 @@
       "rating": null
     },
     "boo-who": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "sum-fibs": {
       "completed": false,
