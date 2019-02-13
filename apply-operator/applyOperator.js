@@ -1,8 +1,9 @@
 function applyOperator() {
-  if (argument.length > 1) {
+  if (arguments.length === 1) return 0;
+  if (arguments.length > 1) {
     var op = arguments[0];
 
-    var result = 0;
+    var result = op === '+' || op === '-' ? 0 : 1;
     for (var i = 1; i < arguments.length; i++) {
       if (typeof arguments[i] !== 'number') {
         break;
@@ -15,6 +16,6 @@ function applyOperator() {
     }
     return result;
   }
-  return 0;
+  throw new Error();
 }
 export { applyOperator };
