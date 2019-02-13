@@ -1,8 +1,8 @@
-
 function factorial(...args) {
-  return args;
+  if (args[0] === 0)
+    return 1
+  else
+    return args[0] * factorial(args[0] - 1)
 }
 
-export {
-  factorial,
-};
+module.exports = factorial;
