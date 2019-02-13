@@ -20,8 +20,8 @@
       "rating": null
     },
     "counter": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "counter-factory": {
       "completed": false,
@@ -32,8 +32,8 @@
       "rating": null
     },
     "cache-function": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "apply-operator": {
       "completed": true,
