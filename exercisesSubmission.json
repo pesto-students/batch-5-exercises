@@ -1,59 +1,59 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mohd Hassaan",
+  "email": "sr.hassan23@gmail.com",
+  "batch": "5",
   "exercises": {
     "factorial": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "is-odd": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "is-even": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "is-triangle": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "counter": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "counter-factory": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "limit-function-call-count": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "cache-function": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "apply-operator": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "boo-who": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "sum-fibs": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "sum-primes": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "rectangle-diagonal": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "three-sum": {
       "completed": false,
