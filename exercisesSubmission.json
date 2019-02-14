@@ -44,8 +44,8 @@
       "rating": null
     },
     "map-object": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "object-pairs": {
       "completed": false,
