@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Kaushik Bokka",
+  "email": "kaushikbokka@gmail.com",
+  "batch": "05",
   "exercises": {
     "slasher": {
       "completed": false,
@@ -12,11 +12,11 @@
       "rating": null
     },
     "find-element": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "drop-elements": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "update-inventory": {
@@ -44,7 +44,7 @@
       "rating": null
     },
     "map-object": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-pairs": {
