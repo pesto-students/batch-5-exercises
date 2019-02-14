@@ -56,7 +56,7 @@
       "rating": null
     },
     "object-defaults": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "user-check-password": {
