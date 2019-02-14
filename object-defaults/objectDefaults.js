@@ -1,6 +1,10 @@
-
 function objectDefaults(...args) {
-  return args;
+  var objectToMerge = args[0];
+  var defaultObject = args[1];
+  return {
+    ...objectDefaults,
+    ...defaultObject,
+  };
 }
 
 export {
