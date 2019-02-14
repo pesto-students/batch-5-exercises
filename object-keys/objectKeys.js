@@ -1,10 +1,12 @@
 
 function objectKeys(sampleObject) {
-  // const listObjectKeys = [];
-  // for (const key in sampleObject)  {
-  //     listObjectKeys.push(key);
-  //   }
-  return sampleObject;
+  const listObjectKeys = [];
+  for (const key in sampleObject) {
+    if ({}.hasOwnProperty.call(sampleObject, key)) {
+      listObjectKeys.push(key);
+    }
+  }
+  return listObjectKeys;
 }
 
 export {
