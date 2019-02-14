@@ -52,7 +52,7 @@
       "rating": null
     },
     "object-invert": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-defaults": {
