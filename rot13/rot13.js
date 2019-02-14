@@ -3,6 +3,7 @@ function rot13(encoded) {
   for (let i = 0; i < encoded.length; i++) {
     var charCode = encoded.charCodeAt(i);
     var decodedChar;
+    /* Wrap charcode between 65-90 */
     if (charCode >= 65 && charCode <= 90) {
       decodedChar = String.fromCharCode(charCode - 13);
       decoded += decodedChar;
@@ -10,6 +11,7 @@ function rot13(encoded) {
       decoded += encoded[i];
     }
   }
+
   return decoded;
 }
 
