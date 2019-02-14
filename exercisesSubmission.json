@@ -8,8 +8,8 @@
       "rating": null
     },
     "chunk-array-in-groups": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "find-element": {
       "completed": false,
