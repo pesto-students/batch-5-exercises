@@ -12,12 +12,12 @@
       "rating": 5
     },
     "find-element": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "drop-elements": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "update-inventory": {
       "completed": false,
