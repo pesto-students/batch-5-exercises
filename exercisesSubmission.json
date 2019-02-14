@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mehul",
+  "email": "318097@gmail.com",
+  "batch": "5",
   "exercises": {
     "slasher": {
       "completed": false,
@@ -16,7 +16,7 @@
       "rating": null
     },
     "drop-elements": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "update-inventory": {
