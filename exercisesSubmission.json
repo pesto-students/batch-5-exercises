@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mohd Hassaan",
+  "email": "sr.hassan23@gmail.com",
+  "batch": "5",
   "exercises": {
     "slasher": {
       "completed": false,
@@ -12,12 +12,12 @@
       "rating": null
     },
     "find-element": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "drop-elements": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "update-inventory": {
       "completed": false,
@@ -40,24 +40,24 @@
       "rating": null
     },
     "object-values": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "map-object": {
       "completed": false,
       "rating": null
     },
     "object-pairs": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "object-invert": {
       "completed": false,
       "rating": null
     },
     "object-defaults": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "user-check-password": {
       "completed": false,
