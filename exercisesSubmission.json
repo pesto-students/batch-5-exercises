@@ -40,8 +40,8 @@
       "rating": 5
     },
     "add-big-integers": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "alien-alphabet": {
       "completed": false,
