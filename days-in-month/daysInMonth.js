@@ -1,6 +1,7 @@
+function daysInMonth(year, month) {
+  var myDate = new Date().setFullYear(year, month);
 
-function daysInMonth(...args) {
-  return args;
+  return new Date(myDate).;
 }
 
 export {

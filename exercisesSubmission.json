@@ -4,16 +4,16 @@
   "batch": "Batch Number",
   "exercises": {
     "boolean": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "days-in-month": {
       "completed": false,
       "rating": null
     },
     "json-parse": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "lowercase-keys": {
       "completed": false,
