@@ -1,8 +1,3 @@
+function requestValidator(httpObj) {}
 
-function requestValidator(...args) {
-  return args;
-}
-
-export {
-  requestValidator,
-};
+export { requestValidator };
