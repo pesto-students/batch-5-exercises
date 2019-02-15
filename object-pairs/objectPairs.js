@@ -1,6 +1,5 @@
-
-function objectPairs(...args) {
-  return args;
+function objectPairs(operatingObject) {
+  return Object.entries(operatingObject);
 }
 
 export {
