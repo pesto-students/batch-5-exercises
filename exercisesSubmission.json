@@ -60,7 +60,7 @@
       "rating": null
     },
     "user-check-password": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }
