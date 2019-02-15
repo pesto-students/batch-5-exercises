@@ -1,6 +1,7 @@
+import { isNumber } from 'util';
 
-function squareNumbersArray(...args) {
-  return args;
+function squareNumbersArray(sampleArray) {
+  return sampleArray;
 }
 
 export {
