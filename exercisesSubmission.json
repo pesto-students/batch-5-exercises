@@ -36,8 +36,8 @@
       "rating": null
     },
     "abbreviate-string": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "add-big-integers": {
       "completed": false,
