@@ -1,8 +1,5 @@
+var sqrt = Math.sqrt;
+var power = Math.pow;
+var round = Math.round;
 
-function mathFns(...args) {
-  return args;
-}
-
-export {
-  mathFns,
-};
+export { sqrt, power, round };

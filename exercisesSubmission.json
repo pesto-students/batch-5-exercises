@@ -1,27 +1,27 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mohd Hassaan",
+  "email": "sr.hassan23@gmail.com",
+  "batch": "5",
   "exercises": {
     "boolean": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "days-in-month": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "json-parse": {
       "completed": false,
       "rating": null
     },
     "lowercase-keys": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "math-fns": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "parse-ms": {
       "completed": false,
@@ -36,8 +36,8 @@
       "rating": null
     },
     "abbreviate-string": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "add-big-integers": {
       "completed": false,
