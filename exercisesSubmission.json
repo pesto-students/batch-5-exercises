@@ -8,7 +8,7 @@
       "rating": null
     },
     "days-in-month": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "json-parse": {
@@ -20,7 +20,7 @@
       "rating": null
     },
     "math-fns": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "parse-ms": {
