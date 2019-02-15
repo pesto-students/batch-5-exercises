@@ -36,11 +36,11 @@
       "rating": null
     },
     "object-keys": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-values": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "map-object": {
@@ -48,7 +48,7 @@
       "rating": null
     },
     "object-pairs": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "object-invert": {
