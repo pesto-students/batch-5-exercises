@@ -1,8 +1,17 @@
+function sqrt(number) {
+  return Math.sqrt(number);
+}
 
-function mathFns(...args) {
-  return args;
+function power(number, powerExp) {
+  return number ** powerExp;
+}
+
+function round(number) {
+  return Math.round(number);
 }
 
 export {
-  mathFns,
+  sqrt,
+  power,
+  round,
 };
