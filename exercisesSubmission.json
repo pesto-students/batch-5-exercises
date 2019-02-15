@@ -1,10 +1,10 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Kaushik Bokka",
+  "email": "kaushikbokka@gmail.com",
+  "batch": "05",
   "exercises": {
     "boolean": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "days-in-month": {
@@ -16,7 +16,7 @@
       "rating": null
     },
     "lowercase-keys": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "math-fns": {

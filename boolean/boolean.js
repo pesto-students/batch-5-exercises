@@ -1,6 +1,7 @@
 
-function boolean(...args) {
-  return args;
+function boolean(value) {
+  const booleanValue = Boolean(value);
+  return booleanValue;
 }
 
 export {
