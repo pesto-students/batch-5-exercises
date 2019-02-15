@@ -1,14 +1,8 @@
-function sqrt(number) {
-  return Math.sqrt(number);
-}
+const sqrt = Math.sqrt;
 
-function power(number, powerExp) {
-  return number ** powerExp;
-}
+const power = Math.pow;
 
-function round(number) {
-  return Math.round(number);
-}
+const round = Math.round;
 
 export {
   sqrt,
