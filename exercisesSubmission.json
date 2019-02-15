@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Shalini",
+  "email": "shalinityagi64@gmail.com",
+  "batch": "5",
   "exercises": {
     "boolean": {
       "completed": false,
@@ -36,7 +36,7 @@
       "rating": null
     },
     "abbreviate-string": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "add-big-integers": {
