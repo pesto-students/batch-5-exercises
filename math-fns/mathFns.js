@@ -1,8 +1,11 @@
-
-function mathFns(...args) {
-  return args;
+function sqrt(n) {
+  return Math.sqrt(n);
+}
+function power(base, n) {
+  return Math.pow(base, n);
+}
+function round(n) {
+  return Math.round(n);
 }
 
-export {
-  mathFns,
-};
+export { sqrt, power, round };
