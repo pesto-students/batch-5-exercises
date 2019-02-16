@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mehul",
+  "email": "318097@gmail.com",
+  "batch": "5",
   "exercises": {
     "reverse-string": {
       "completed": true,
@@ -12,7 +12,7 @@
       "rating": 5
     },
     "diff-array": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "longest-word-in-string": {
@@ -20,15 +20,15 @@
       "rating": 5
     },
     "telephone-check": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "rot13": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "get-index-to-ins": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "repeat-string-num-times": {
@@ -36,11 +36,11 @@
       "rating": 5
     },
     "binary-agent": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "bouncer": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "sum-all": {
@@ -60,11 +60,11 @@
       "rating": 5
     },
     "steamroll-array": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "rotated-string": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }
