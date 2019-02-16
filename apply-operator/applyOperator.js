@@ -1,17 +1,32 @@
 function applyOperator() {
   if (arguments.length === 1) return 0;
   if (arguments.length > 1) {
-    var op = arguments[0];
+    var operator = arguments[0];
+    var initialValue;
+    if (operator === '-') { initialValue = -arguments[1]; }
+    else { initialValue = arguments[1]; }
+    var result = initialValue;
 
-    var result = op === '+' || op === '-' ? 0 : 1;
-    for (var i = 1; i < arguments.length; i++) {
+    for (var i = 2; i < arguments.length; i++) {
       if (typeof arguments[i] !== 'number') {
         break;
       } else {
-        if (op === '+') result += arguments[i];
-        else if (op === '-') result -= arguments[i];
-        else if (op === '*') result *= arguments[i];
-        else if (op === '%') result %= arguments[i];
+        if (operator === '+') {
+          result += arguments[i];
+        }
+        else if (operator === '-') {
+          result -= arguments[i];
+        }
+        else if (operator === '*') {
+          result *= arguments[i];
+        }
+        else if (operator === '%') {
+          result %= arguments[i];
+        }
+        else if (operator === '/') {
+          result /= arguments[i];
+          result = Number(result.toFixed(4));
+        }
       }
     }
     return result;

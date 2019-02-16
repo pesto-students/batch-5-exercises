@@ -20,11 +20,11 @@
       "rating": 4
     },
     "counter": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "counter-factory": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "limit-function-call-count": {
@@ -36,19 +36,19 @@
       "rating": null
     },
     "apply-operator": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "boo-who": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "sum-fibs": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "sum-primes": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "rectangle-diagonal": {
@@ -60,7 +60,7 @@
       "rating": null
     },
     "sum-of-perfect-squares": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }
