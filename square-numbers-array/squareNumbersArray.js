@@ -4,8 +4,11 @@ function squareNumbersArray() {
     (acc, el) => Boolean(typeof el === 'number') && acc,
     true
   );
-  return isNumber
-    ? true
-    : new Error('All the elements of the array are not a Number.');
+
+  if (isNumber) {
+    return true;
+  } else {
+    throw new Error('All the elements of the array are not a Number.');
+  }
 }
 export { squareNumbersArray };
