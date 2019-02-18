@@ -1,51 +1,51 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mohd Hassaan",
+  "email": "sr.hassan23@gmail.com",
+  "batch": "5",
   "exercises": {
     "bind": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "block-scoping": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "const-immutable": {
       "completed": false,
       "rating": null
     },
     "create-student": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "double-odd-numbers": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "instructor": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "join-arrays": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "map-filter-and-reduce": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "place-in-middle": {
       "completed": false,
       "rating": null
     },
     "print-full-name": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "sum-even-args": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "template-literals": {
       "completed": false,
@@ -56,8 +56,8 @@
       "rating": null
     },
     "triple-and-filter": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "all-of-conditions": {
       "completed": false,

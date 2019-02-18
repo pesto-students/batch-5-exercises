@@ -1,6 +1,9 @@
 
 function bind(...args) {
-  return args;
+  var argsList = [...args];
+  var func = argsList[0];
+  var argsToBind = argsList.slice(1);
+  return func.bind(...argsToBind);
 }
 
 export {

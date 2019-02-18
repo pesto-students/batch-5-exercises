@@ -1,6 +1,7 @@
 
 function joinArrays(...args) {
-  return args;
+  var arrayList = [...args];
+  return arrayList.reduce((resultArr, subArr) => [...resultArr, ...subArr], []);
 }
 
 export {
