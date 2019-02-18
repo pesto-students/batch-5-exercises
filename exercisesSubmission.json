@@ -4,7 +4,7 @@
   "batch": "5",
   "exercises": {
     "alphabetic-shift": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "all-promises": {
