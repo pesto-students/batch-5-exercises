@@ -1,6 +1,6 @@
 
-function allPromises(...args) {
-  return args;
+function allPromises(list) {
+  return Promise.all(list);
 }
 
 export {
