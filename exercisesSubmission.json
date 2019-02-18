@@ -16,7 +16,7 @@
       "rating": null
     },
     "create-student": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "double-odd-numbers": {
@@ -40,7 +40,7 @@
       "rating": null
     },
     "print-full-name": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "sum-even-args": {
