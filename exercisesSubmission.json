@@ -48,7 +48,7 @@
       "rating": null
     },
     "template-literals": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "template-tag-function": {
