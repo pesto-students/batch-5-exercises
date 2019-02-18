@@ -1,43 +1,43 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mohd Hassaan",
+  "email": "sr.hassan23@gmail.com",
+  "batch": "5",
   "exercises": {
     "alphabetic-shift": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "all-promises": {
       "completed": false,
       "rating": null
     },
     "greet": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "reject-promise": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "queue": {
       "completed": false,
       "rating": null
     },
     "person": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "sequential-promise": {
       "completed": false,
       "rating": null
     },
     "timeout": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "is-promise": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "promise-all-props": {
       "completed": false,
