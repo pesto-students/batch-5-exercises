@@ -24,8 +24,8 @@
       "rating": null
     },
     "person": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "sequential-promise": {
       "completed": false,
@@ -36,8 +36,8 @@
       "rating": null
     },
     "is-promise": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "promise-all-props": {
       "completed": false,

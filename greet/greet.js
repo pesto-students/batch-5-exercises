@@ -1,6 +1,6 @@
 
-function greet(...args) {
-  return args;
+async function greet() {
+  return 'Hey Pesto';
 }
 
 export {
