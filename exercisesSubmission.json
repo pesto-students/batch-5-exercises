@@ -28,11 +28,11 @@
       "rating": null
     },
     "join-arrays": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "map-filter-and-reduce": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "place-in-middle": {
