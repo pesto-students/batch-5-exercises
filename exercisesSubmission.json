@@ -1,14 +1,14 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Shalini",
+  "email": "shalinityagi64@gmail.com",
+  "batch": "5",
   "exercises": {
     "bind": {
       "completed": false,
       "rating": null
     },
     "block-scoping": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "const-immutable": {
