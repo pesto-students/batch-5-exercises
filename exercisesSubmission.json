@@ -20,7 +20,7 @@
       "rating": null
     },
     "double-odd-numbers": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "instructor": {
@@ -36,7 +36,7 @@
       "rating": null
     },
     "place-in-middle": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "print-full-name": {
@@ -48,7 +48,7 @@
       "rating": null
     },
     "template-literals": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "template-tag-function": {
