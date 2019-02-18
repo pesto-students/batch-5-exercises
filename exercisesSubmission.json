@@ -16,7 +16,7 @@
       "rating": null
     },
     "create-student": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "double-odd-numbers": {
@@ -28,7 +28,7 @@
       "rating": null
     },
     "join-arrays": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "map-filter-and-reduce": {
