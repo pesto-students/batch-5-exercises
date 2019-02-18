@@ -8,16 +8,16 @@
       "rating": null
     },
     "block-scoping": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "const-immutable": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "create-student": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "double-odd-numbers": {
       "completed": false,
@@ -60,8 +60,8 @@
       "rating": null
     },
     "all-of-conditions": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     }
   }
 }
