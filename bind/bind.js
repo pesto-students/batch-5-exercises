@@ -1,6 +1,6 @@
 
-function bind(functionToBind, objectToBind) {
-  return functionToBind.bind(objectToBind);
+function bind(functionToBind, ...objectToBind) {
+  return functionToBind.bind(...objectToBind);
 }
 
 export {
