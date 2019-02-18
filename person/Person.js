@@ -1,8 +1,30 @@
 
-function person(...args) {
-  return args;
+// function Person(firstName, lastName, dateOfBirth) {
+//   this.firstName= firstName;
+//   this.lastName= lastName;
+//   this.dateOfBirth= dateOfBirth
+// }
+
+// // class Person(firstName, lastName, dateOfBirth) {
+// //   firstName: firstName;
+// //   lastName: lastName;
+
+
+// // }
+class Person {
+  constructor(firstName, lastName, dateOfBirth) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.dateOfBirth = dateOfBirth;
+  }
+
+  addDobDigits() {
+    const gettingNumFromStringInArray = this.dateOfBirth.replace(/\D/g, '').split('');
+    const addNumbersInArray = gettingNumFromStringInArray.reduce((a, b) => Number(a) + Number(b), 0);
+    return addNumbersInArray;
+  }
 }
 
 export {
-  person,
+  Person,
 };
