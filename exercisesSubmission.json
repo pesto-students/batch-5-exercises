@@ -24,7 +24,7 @@
       "rating": null
     },
     "person": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "sequential-promise": {
