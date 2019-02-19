@@ -12,7 +12,7 @@
       "rating": null
     },
     "fibonacci-iter": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "generator-iterable": {
