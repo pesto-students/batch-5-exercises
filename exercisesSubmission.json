@@ -16,7 +16,7 @@
       "rating": null
     },
     "generator-iterable": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "iterable-protocol": {
@@ -24,7 +24,7 @@
       "rating": null
     },
     "is-iterable": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "is-iterable-empty": {
