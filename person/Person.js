@@ -14,7 +14,8 @@ class Person {
         return acc + curr;
       }
     };
-    return [...this.dateOfBirth].reduce(addDigitsOnly, 0);
+    const replceNonDigit = this.dateOfBirth.replace(/\D/g);
+    return [...replceNonDigit].reduce(addDigitsOnly, 0);
   }
 }
 
