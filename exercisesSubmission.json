@@ -4,8 +4,8 @@
   "batch": "Batch Number",
   "exercises": {
     "built-in-iterables": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "ackermann": {
       "completed": false,
@@ -32,12 +32,12 @@
       "rating": null
     },
     "array-cube-root-to-json": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "object-assign": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     }
   }
 }
