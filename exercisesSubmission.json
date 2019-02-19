@@ -1,14 +1,14 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Shalini",
+  "email": "shalinityagi64@gmail.com",
+  "batch": "5",
   "exercises": {
     "built-in-iterables": {
       "completed": false,
       "rating": null
     },
     "ackermann": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "aperture": {
