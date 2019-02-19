@@ -1,23 +1,23 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mohd Hassaan",
+  "email": "sr.hassan23@gmail.com",
+  "batch": "5",
   "exercises": {
     "built-in-iterables": {
       "completed": false,
       "rating": null
     },
     "ackermann": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "aperture": {
       "completed": false,
       "rating": null
     },
     "animal-sort": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "args-string": {
       "completed": false,
@@ -28,12 +28,12 @@
       "rating": null
     },
     "array-addition": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "array-cube-root-to-json": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "object-assign": {
       "completed": false,
