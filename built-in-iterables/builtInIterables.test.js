@@ -85,14 +85,10 @@ describe('string is a built-in iterable object', () => {
     });
 
     it('the after-last call to `iterator.next()` says done=true, no more elements', () => {
-      const arr = ['as', 'a', 'b'];
-      const newIterator = arr[Symbol.iterator];
-      let afterLast = newIterator.next();
-      while (newIterator.next().done !== true) {
-        afterLast = newIterator.next().done;
-      }
-
-      expect(afterLast).toBe(true);
+      const arr = [];
+      const newIterator = arr[Symbol.iterator]();
+      const afterLast = newIterator.next();
+      expect(afterLast.done).toBe(true);
     });
   });
 });

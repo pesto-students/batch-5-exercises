@@ -12,16 +12,16 @@
       "rating": null
     },
     "aperture": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "animal-sort": {
       "completed": false,
       "rating": null
     },
     "args-string": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "arithmetic-expression-evaluator": {
       "completed": false,
