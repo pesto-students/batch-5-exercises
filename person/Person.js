@@ -1,16 +1,4 @@
 
-// function Person(firstName, lastName, dateOfBirth) {
-//   this.firstName= firstName;
-//   this.lastName= lastName;
-//   this.dateOfBirth= dateOfBirth
-// }
-
-// // class Person(firstName, lastName, dateOfBirth) {
-// //   firstName: firstName;
-// //   lastName: lastName;
-
-
-// // }
 class Person {
   constructor(firstName, lastName, dateOfBirth) {
     this.firstName = firstName;
