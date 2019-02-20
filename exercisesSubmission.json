@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Shalini",
+  "email": "shalinityagi64@gmail.com",
+  "batch": "5",
   "exercises": {
     "search-sorted-matrix": {
       "completed": false,
@@ -24,7 +24,7 @@
       "rating": null
     },
     "slice": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "split-every": {
