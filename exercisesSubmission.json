@@ -4,7 +4,7 @@
   "batch": "5",
   "exercises": {
     "search-sorted-matrix": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "unnest": {
