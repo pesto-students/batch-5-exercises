@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Shalini",
+  "email": "shalinityagi64@gmail.com",
+  "batch": "5",
   "exercises": {
     "on-change": {
       "completed": false,
@@ -32,7 +32,7 @@
       "rating": null
     },
     "without": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "values-in": {
