@@ -1,6 +1,7 @@
 
-function values(...args) {
-  return args;
+function values(sampleObject) {
+  const arrayOfValues = Object.values(sampleObject);
+  return arrayOfValues;
 }
 
 export {

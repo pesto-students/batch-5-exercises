@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Kaushik Bokka",
+  "email": "kaushikbokka@gmail.com",
+  "batch": "05",
   "exercises": {
     "on-change": {
       "completed": false,
@@ -12,7 +12,7 @@
       "rating": null
     },
     "known-prop": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "negative-index": {
@@ -40,7 +40,7 @@
       "rating": null
     },
     "values": {
-      "completed": false,
+      "completed": true,
       "rating": null
     }
   }
