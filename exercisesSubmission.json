@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Kaushik Bokka",
+  "email": "kaushikbokka@gmail.com",
+  "batch": "05",
   "exercises": {
     "search-sorted-matrix": {
       "completed": false,
@@ -28,7 +28,7 @@
       "rating": null
     },
     "split-every": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "substitution-cipher": {
