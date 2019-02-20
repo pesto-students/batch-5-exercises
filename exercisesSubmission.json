@@ -20,7 +20,7 @@
       "rating": null
     },
     "set-default-property": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "private-props": {
