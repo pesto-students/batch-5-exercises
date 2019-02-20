@@ -1,15 +1,15 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mohd Hassaan",
+  "email": "sr.hassan23@gmail.com",
+  "batch": "5",
   "exercises": {
     "search-sorted-matrix": {
       "completed": false,
       "rating": null
     },
     "unnest": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "uniq": {
       "completed": false,
@@ -24,12 +24,12 @@
       "rating": null
     },
     "slice": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "split-every": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "substitution-cipher": {
       "completed": false,
@@ -52,8 +52,8 @@
       "rating": null
     },
     "to-pairs": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "type-js": {
       "completed": false,
