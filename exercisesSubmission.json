@@ -28,8 +28,8 @@
       "rating": null
     },
     "array-addition": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "array-cube-root-to-json": {
       "completed": true,

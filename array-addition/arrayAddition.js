@@ -1,17 +1,22 @@
 
+const isEmpty = arr => arr.length === 0;
+const isString = item => typeof item === 'string';
+const zip = (_array1, _array2) => {
+  const biggerArray = _array1.length > _array2.length ? _array1 : _array2;
+  const smallerArray = _array1.length > _array2.length ? _array2 : _array1;
+  return biggerArray.map((value, index) => [value, smallerArray[index]]);
+};
 function arrayAddition(elements1, elements2) {
-  const result = [];
-  let counter = 0;
-  const lengthOfArray1 = elements1.length;
-  const lengthOfArray2 = elements2.length;
-  if (lengthOfArray1 === 0 || lengthOfArray2 === 0) {
-    return (lengthOfArray1 === 0) ? elements2 : elements1;
+  if (isEmpty(elements1) || isEmpty(elements2)) {
+    throw Error('Array can not be empty');
   }
-  while (counter < lengthOfArray1 && counter < lengthOfArray2) {
-    result.push(elements1[counter] + elements2[counter]);
-    counter += 1;
+
+  if (elements1.some(isString) || elements2.some(isString)) {
+    throw Error('Array element can not be string');
   }
-  return result;
+  const sumArray = zip(elements1, elements2)
+    .map(item => item[0] + (item[1] === undefined ? 0 : item[1]));
+  return sumArray;
 }
 
 export {

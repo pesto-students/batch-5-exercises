@@ -1,14 +1,11 @@
 
 function animalSort(elements) {
-  const sortAnimalsbyNoOFLegs = (animalA, animalB) => {
-    const legs = animalA.numberOfLegs - animalB.numberOfLegs;
-    if (legs !== 0) {
-      return legs;
-    }
-    const name = animalA.name.charAt(0) - animalB.name.charAt(0);
-    return name;
+  const sortAnimalsByNoOFLegs = (animalA, animalB) => {
+    const sortByNoOfLegs = animalA.numberOfLegs - animalB.numberOfLegs;
+    const sortByName = animalA.name.charCodeAt(0) - animalB.name.charCodeAt(0);
+    return sortByNoOfLegs || sortByName;
   };
-  return elements.sort(sortAnimalsbyNoOFLegs);
+  return elements.sort(sortAnimalsByNoOFLegs);
 }
 
 export {
