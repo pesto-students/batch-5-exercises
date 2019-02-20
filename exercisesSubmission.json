@@ -12,28 +12,28 @@
       "rating": null
     },
     "known-prop": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "negative-index": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "set-default-property": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "private-props": {
       "completed": false,
       "rating": null
     },
     "xprod": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "without": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "values-in": {
       "completed": false,
