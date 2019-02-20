@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mohd Hassaan",
+  "email": "sr.hassan23@gmail.com",
+  "batch": "5",
   "exercises": {
     "on-change": {
       "completed": false,
@@ -12,36 +12,36 @@
       "rating": null
     },
     "known-prop": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "negative-index": {
       "completed": false,
       "rating": null
     },
     "set-default-property": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "private-props": {
       "completed": false,
       "rating": null
     },
     "xprod": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "without": {
       "completed": false,
       "rating": null
     },
     "values-in": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "values": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     }
   }
 }
