@@ -52,7 +52,7 @@
       "rating": null
     },
     "to-pairs": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "type-js": {
