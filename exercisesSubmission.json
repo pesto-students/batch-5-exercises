@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Kaushik Bokka",
+  "email": "kaushikbokka@gmail.com",
+  "batch": "05",
   "exercises": {
     "least-common-multiple": {
       "completed": false,
@@ -16,7 +16,7 @@
       "rating": null
     },
     "bizarre-string-incrementer": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "adding-vector-graphics-to-web": {
