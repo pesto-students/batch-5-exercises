@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mehul",
+  "email": "318097@gmail.com",
+  "batch": "5",
   "exercises": {
     "least-common-multiple": {
       "completed": false,
@@ -32,7 +32,7 @@
       "rating": null
     },
     "map": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "svg": {

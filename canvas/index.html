@@ -1,1 +1,31 @@
-Make some complex figures using canvas.
+<!-- Make some complex figures using canvas. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <canvas height="500" width="500" id="myCanvas"></canvas>
+  <script>
+    const canvas = document.getElementById('myCanvas');
+    const ctx = canvas.getContext('2d');
+    ctx.moveTo(50, 50);
+    ctx.lineTo(50, 25);
+    ctx.lineTo(75, 50);
+    ctx.lineTo(100, 25);
+    ctx.lineTo(100, 50);
+    ctx.stroke();
+
+    ctx.moveTo(110, 25);
+    ctx.lineTo(110, 50);
+    ctx.lineTo(150, 50);
+    ctx.stroke();
+  </script>
+</body>
+
+</html>
