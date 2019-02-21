@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Kaushik Bokka",
+  "email": "kaushikbokka@gmail.com",
+  "batch": "05",
   "exercises": {
     "hamming-distance": {
       "completed": false,
@@ -28,7 +28,7 @@
       "rating": null
     },
     "debugging-html": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "form-attributes": {
@@ -36,7 +36,7 @@
       "rating": null
     },
     "form": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "html-classes": {
@@ -44,7 +44,7 @@
       "rating": null
     },
     "html-text-formatting": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "iframe": {
