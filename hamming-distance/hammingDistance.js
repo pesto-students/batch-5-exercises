@@ -1,5 +1,6 @@
 
 function hammingDistance(...args) {
+  
   return args;
 }
 

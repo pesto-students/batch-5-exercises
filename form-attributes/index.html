@@ -1,12 +1,18 @@
 <!-- Exercise:
-Disable the input field. -->
+1. Create an input field that should only contain a numeric value, and place it inside the <form> element.
+
+2. Add the name attribute with a value of "quantity" to the input element.
+
+3. Set restrictions on the input field to only accept numbers between 1 and 5. -->
 
 <!DOCTYPE html>
 <html>
 <body>
 
 <form>
-  First name: <input type="text" name="firstname" value="John">
+  Quantity (between 1 and 5):
+   quantity: <input type="number" min="1"  max="5" name="quantity" value="quantity" >
+ 
   <input type="submit">
 </form>
 

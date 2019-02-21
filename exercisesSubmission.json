@@ -16,8 +16,8 @@
       "rating": null
     },
     "binary-search": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "primality-test": {
       "completed": false,
@@ -28,28 +28,28 @@
       "rating": null
     },
     "debugging-html": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "form-attributes": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "form": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "html-classes": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "html-text-formatting": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "iframe": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "navigation-menu-start": {
       "completed": false,
