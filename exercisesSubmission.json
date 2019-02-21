@@ -1,11 +1,11 @@
 {
-  "name": "Your name",
-  "email": "Your email",
+  "name": "Mohd Hassaan",
+  "email": "sr.hassan23@gmail.com",
   "batch": "Batch Number",
   "exercises": {
     "least-common-multiple": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "integer-partition": {
       "completed": false,
@@ -44,8 +44,8 @@
       "rating": null
     },
     "html-video": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "whatsapp": {
       "completed": false,
