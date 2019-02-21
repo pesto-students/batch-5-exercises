@@ -16,16 +16,16 @@
       "rating": null
     },
     "bizarre-string-incrementer": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "adding-vector-graphics-to-web": {
       "completed": false,
       "rating": null
     },
     "canvas": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "form-validation": {
       "completed": false,
@@ -36,16 +36,16 @@
       "rating": null
     },
     "svg": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "table": {
       "completed": false,
       "rating": null
     },
     "html-video": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "whatsapp": {
       "completed": false,

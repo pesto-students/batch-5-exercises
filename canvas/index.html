@@ -1,1 +1,24 @@
-Make some complex figures using canvas.
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="800" height="900"
+style="border:0px solid #c3c3c3;">
+Your browser does not support the canvas element.
+</canvas>
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.beginPath();
+ctx.lineTo(220, 155);
+
+ctx.arc(100, 80, 70, 7, 2 * Math.PI);
+ctx.arc(150, 160, 70, 7, 2 * Math.PI);
+ctx.stroke();
+
+</script>
+
+</body>
+</html>
+
