@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mohd Hassaan",
+  "email": "sr.hassan23@gmail.com",
+  "batch": "5",
   "exercises": {
     "hamming-distance": {
       "completed": false,
@@ -20,8 +20,8 @@
       "rating": null
     },
     "primality-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "boolean-expression-evaluator": {
       "completed": false,
@@ -40,28 +40,28 @@
       "rating": null
     },
     "html-classes": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "html-text-formatting": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "iframe": {
       "completed": false,
       "rating": null
     },
     "navigation-menu-start": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "strikeout": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "tooltip": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     }
   }
 }
