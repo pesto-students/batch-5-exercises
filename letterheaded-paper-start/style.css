@@ -23,7 +23,10 @@ address {
   bottom: 8mm;
   right: 20mm;
 }
-
+header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    border-radius: 1.5em 1.5em 0 0;
+}
 h1 {
   position: absolute;
   top: 12mm;
