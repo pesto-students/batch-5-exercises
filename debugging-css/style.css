@@ -20,7 +20,7 @@ h2 {
   font-size: 3.2em;
 }
 
-pli {
+p li {
   font-size: 1.7em;
 }
 
@@ -28,32 +28,43 @@ pli {
 
 /* header and footer */
 
-header, footer {
-  background-colour: teal;
-  height: 10em;
+header {
+  background-color: teal;
+  height: 7em;
   padding: 2em;
 }
 
-h1, footer p {
-  margin: -70px;
+footer {
+  background-color: teal;
+  height: 2em;
+  padding: 2em;
+}
+
+footer p {
+  margin: -10px;
+  font-size: 15px;
 }
 
 h1 {
   text-align: center;
   padding: 0.5em 0;
+  margin: -10px;
 }
 
 /* main content */
 
 main {
-  padding: 2em;
+  padding: 0em;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 15px;
 }
 
 main p, main li {
-  line-height: 2;
+  line-height: 1.8em;
 }
 
 img {
-  float: right
-  margin: 1.2em 2em;
+  float: right;
+  margin: -3em 3em;
 }
