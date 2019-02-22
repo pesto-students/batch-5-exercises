@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flex Box</title>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px;
+      margin: 0 0 5px 0;
+      background: purple;
+    }
+
+    .content {
+      display: flex;
+    }
+
+    .card {
+      background: cyan;
+      margin: 10px 5px;
+      padding: 10px;
+    }
+
+    .card:nth-child(1) {
+      flex: 1 1 25%;
+    }
+
+    .card:nth-child(2) {
+      flex: 1 1 25%;
+    }
+
+    .card:nth-child(3) {
+      flex: 1 1 40%;
+    }
+
+    .card:nth-child(3) .button-group {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .card:nth-child(3) .button-group button {
+      flex: 1;
+      margin: 3px;
+      padding: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Complex flexbox example</h1>
+    <div class="content">
+      <div class="card">
+        <h2>First article</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui consequatur corporis labore perferendis fuga
+          veniam, aliquam sit fugit voluptatem atque pariatur provident sapiente veritatis, odio doloremque ut soluta
+          eos blanditiis possimus rerum ipsum odit itaque ipsa! Harum dolorum quaerat a fuga. Asperiores, numquam
+          excepturi expedita beatae reprehenderit maiores aspernatur? Dicta.</p>
+      </div>
+
+      <div class="card">
+        <h2>Second article</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui consequatur corporis labore perferendis fuga
+          veniam,
+          aliquam sit fugit voluptatem atque pariatur provident sapiente veritatis, odio doloremque ut soluta eos
+          blanditiis
+          possimus rerum ipsum odit itaque ipsa! Harum dolorum quaerat a fuga. Asperiores, numquam excepturi expedita
+          beatae
+          reprehenderit maiores aspernatur? Dicta.</p>
+      </div>
+      <div class="card">
+        <div class="button-group">
+          <button>Smile</button>
+          <button>Laugh</button>
+          <button>Wink</button>
+          <button>Shrug</button>
+          <button>Blush</button>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero corrupti harum maxime praesentium, provident
+          recusandae alias fugiat incidunt aliquid, architecto est rem quos tenetur ea?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi laboriosam culpa amet asperiores labore natus
+          fugiat! Eum tempore aliquam ullam et praesentium aperiam repellendus qui.</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
