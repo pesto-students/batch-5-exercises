@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" view>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS grids example</title>
+  <style>
+    html {
+      height: 100%;
+    }
+
+    body {
+      padding-left: 100px;
+      padding-right: 100px
+    }
+
+    .wrapperHeader {
+      display: flex;
+      justify-content: center;
+      background-color: #9b0da5;
+      margin: 10px;
+      text-align: center;
+      line-height: 50px;
+      font-size: 20px;
+      flex-flow: row;
+    }
+
+    .col {
+      background-color: #ee7a7a;
+      width: 250px;
+      margin: 10px;
+      text-align: center;
+      line-height: 50px;
+      font-size: 75px;
+      flex-flow: column;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapperHeader">
+    Complex flexbox example
+  </div>
+  <div class="col">1</div>
+  <div class="col">2</div>
+  <div class="col">3</div>
+
+</body>
+
+</html>

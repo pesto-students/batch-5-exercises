@@ -16,28 +16,28 @@
       "rating": null
     },
     "deep-copy-object": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "advanced-box-effects": {
       "completed": false,
       "rating": null
     },
     "animation": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "flexbox": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "floats": {
       "completed": false,
       "rating": null
     },
     "grids": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     }
   }
 }
