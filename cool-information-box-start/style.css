@@ -3,3 +3,12 @@ html {
 }
 
 /* Your CSS below here */
+
+p {
+  color: red;
+  background-color: rgb(128, 33, 33);
+  text-align: center;
+  width: 400px;
+  padding: 40px 40px;
+  font-size: 20px;
+}
