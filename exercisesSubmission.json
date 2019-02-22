@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mehul",
+  "email": "318097@gmail.com",
+  "batch": "5",
   "exercises": {
     "levenshtein-distance": {
       "completed": false,
@@ -24,11 +24,11 @@
       "rating": null
     },
     "cool-information-box-start": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "debugging-css": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "fundamental-css-comprehension": {
