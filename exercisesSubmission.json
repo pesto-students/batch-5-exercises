@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Shalini Tyagi",
+  "email": "shalinityagi64@gmail.com",
+  "batch": "5",
   "exercises": {
     "levenshtein-distance": {
       "completed": false,

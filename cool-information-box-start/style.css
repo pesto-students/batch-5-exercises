@@ -3,3 +3,17 @@ html {
 }
 
 /* Your CSS below here */
+.box{
+  background-color: #ba3027;
+  color: #e93f34;
+  box-shadow: 4px 4px 20px #000000, inset -1px -1px 10px #000000; 
+  font-size: 30px;
+  font-weight: 600;
+  width: 30%;
+  border: 2px solid;
+  border-radius: 15px;
+  border-color: #9a261f;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 15px 0px;
+}
