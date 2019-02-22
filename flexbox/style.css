@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background: purple;
+    padding: 20px;
+    margin: 5px;
+}
+
+.wrapper {
+    display:grid;
+    background: cyan;
+    grid-template-rows: 100px 100px 100px;
+    margin: 10px 5px;
+    padding: 10px;
+  }
