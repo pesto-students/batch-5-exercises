@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Advanced box effects</title>
+  <style>
+    .container {
+      height: 300px;
+      display: flex;
+      align-items: center;
+      font-size: 55px;
+      font-weight: bold;
+    }
+
+    .img-wrapper {
+      position: relative;
+    }
+
+    .img-wrapper .text {
+      position: absolute;
+      top: 35%;
+      left: 25%;
+    }
+
+    .text-wrapper {
+      margin: 0 30px;
+      background: url('./colorful-heart.png');
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="img-wrapper">
+      <img src="./colorful-heart.png" />
+      <span class="text">WOW</span>
+    </div>
+    <div class="text-wrapper">
+      WOW
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Animation</title>
+  <style>
+    .loader1 {
+      height: 75px;
+      width: 75px;
+      border-radius: 50%;
+      border: 10px solid grey;
+      position: relative;
+      box-sizing: border-box;
+    }
+
+    .loader1:before {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: yellow;
+      border-radius: 50%;
+      border-right: 10px solid white;
+      border-left: 10px solid transparent;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      animation: spin 2s infinite linear;
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="loader1">
+    <div class="spin"></div>
+  </div>
+</body>
+
+</html>
