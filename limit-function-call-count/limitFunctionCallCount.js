@@ -1,9 +1,6 @@
-var sum = 0;
 function limitFunctionCallCount(cb, limit) {
-  ++sum;
-  return sum < limit ? cb : null;
+  this.count = this.count + 1 || 0;
+  return this.count < limit ? cb : null;
 }
 
-export {
-  limitFunctionCallCount,
-};
+export { limitFunctionCallCount };
