@@ -12,7 +12,7 @@
       "rating": null
     },
     "greet": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "reject-promise": {
