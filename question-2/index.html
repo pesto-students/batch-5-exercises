@@ -17,6 +17,14 @@
     <br>
     <input type="submit" value="Submit">
   </form>
+  <script>
+    function getFormvalue() {
+      const form = document.getElementById('form1');
+      const fname = form.fname.value;
+      const lname = form.lname.value;
+      alert(`${fname} ${lname}`);
+    }
+  </script>
 </body>
 
 </html>
