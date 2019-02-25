@@ -24,6 +24,17 @@
     </select>
     <input type="button" onclick="getOptions()" value="Count and Output all items">
   </form>
+  <script>
+    function getOptions() {
+      const dropdown = document.getElementById('mySelect');
+      let result = '';
+      const options = dropdown.options;
+      console.log(options);
+      result += `Total no of options : ${options.length}\n`;
+      result += options.join(',');
+      alert(result);
+    }
+  </script>
 </body>
 
 </html>
