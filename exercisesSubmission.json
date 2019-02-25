@@ -44,7 +44,7 @@
       "rating": null
     },
     "sum-even-args": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "template-literals": {

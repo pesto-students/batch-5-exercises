@@ -9,20 +9,23 @@
 
    How do you think you could _default_ `p3` to a suitable value?
    Try it.
+   
+   > let [p1, p2, p3 = 'default'] = phonetic;
 
 2. Given this array:
 
   ```js
     let arr2 = ['one', 'two', ['three', ['four', ['five', 'six', 'seven']], 'eight']];
   ```
-
    Create a destructuring pattern to give this result:
 
   ```js
     console.log(m, n, o);       // two six eight
   ```
+> let [,m,[,[,[,n]],o]] = arr2;
 
-3. Assume you have this object:
+
+1. Assume you have this object:
 
       ```js
         let stats = {
@@ -40,13 +43,13 @@
         console.log(misses);          // 524
       ```
 
-    2. What happens when this line is executed? Why, and how would you fix it?
+    1. What happens when this line is executed? Why, and how would you fix it?
 
       ```js
         { forwardCacheHit: myhits, forwardCacheMiss: mymisses } = stats;
       ```
 
-4. What will happen when this code is executed? Why?
+2. What will happen when this code is executed? Why?
 
   ```js
     {
