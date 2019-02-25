@@ -8,7 +8,7 @@
       "rating": null
     },
     "block-scoping": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "const-immutable": {
