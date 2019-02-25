@@ -6,6 +6,24 @@ get the value of the href, hreflang, rel, target, and type attributes of the spe
 
 <head>
   <meta charset=utf-8 />
+  <title>Get attributes</title>
+  <script>
+    function getAttributes() {
+      let attributes = document.getElementsByTagName("a")[0].attributes;
+      // let arrAndValue=attributes.reduce((acc,curr) => {
+      //     return  `${acc} ${curr.nodeName}=asd `
+      // }, '')
+      let result = ''
+      for (let i of attributes) {
+        console.log(i.nodeName)
+        console.log(typeof i)
+        result = `${result} ${i.nodeName}= ${i.nodeValue} `
+      }
+
+
+      document.getElementById("result").innerHTML = result
+    }
+  </script>
 </head>
 
 <body>
@@ -13,6 +31,7 @@ get the value of the href, hreflang, rel, target, and type attributes of the spe
     <a id="w3r" type="text/html" hreflang="en-us" rel="nofollow" target="_self" href="https://pesto.tech/">Pesto</a>
   </p>
   <button onclick="getAttributes()">Click here to get attributes value</button>
+  <p id="result"></p>
 </body>
 
 </html>

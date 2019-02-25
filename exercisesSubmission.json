@@ -8,12 +8,12 @@
       "rating": 5
     },
     "question-2": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "question-3": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "question-4": {
       "completed": false,
