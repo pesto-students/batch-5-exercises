@@ -28,7 +28,7 @@
       "rating": null
     },
     "sequential-promise": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "timeout": {

@@ -1,5 +1,5 @@
 function rejectPromise() {
-  // return Promise.reject("REJECTED!");
+  return Promise.reject(new Error('REJECTED!'));
 }
 
 export { rejectPromise };
