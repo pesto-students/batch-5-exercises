@@ -27,6 +27,16 @@
   <form>
     <input type="button" onclick="changeContent()" value="Change content">
   </form>
+  <script>
+    function changeContent() {
+      let [row, column, text] = prompt('Enter row, column, string : (seperated by commas)').split(',');
+      // console.log(row, column, text);
+      const table = document.getElementById('myTable');
+      const matchedRow = table.querySelectorAll('tr')[parseInt(row) - 1];
+      const matchedColumn = matchedRow.querySelectorAll('td')[parseInt(column) - 1];
+      matchedColumn.innerHTML = text;
+    }
+  </script>
 </body>
 
 </html>
