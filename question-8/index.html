@@ -31,7 +31,11 @@
       const options = dropdown.options;
       console.log(options);
       result += `Total no of options : ${options.length}\n`;
-      result += options.join(',');
+      let i = 0;
+      while (i < options.length) {
+        result += `${dropdown.options[i].value}, `;
+        i++;
+      }
       alert(result);
     }
   </script>
