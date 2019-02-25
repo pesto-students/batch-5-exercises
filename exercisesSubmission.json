@@ -1,10 +1,10 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mehul Lakhanpal",
+  "email": "318097@gmail.com",
+  "batch": "5",
   "exercises": {
     "question-1": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "question-2": {
