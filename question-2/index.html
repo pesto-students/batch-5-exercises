@@ -6,6 +6,14 @@
 <head>
   <meta charset=utf-8 />
   <title>Return first and last name from a form</title>
+  <script>
+    function getFormNames() {
+      const form = document.getElementById('form1');
+      const firstName = form.fname.value;
+      const lastName = form.lname.value;
+      alert(`The Full Name is ${firstName} ${lastName}`)
+    }
+  </script>
 </head>
 
 <body>
@@ -16,6 +24,7 @@
     <input type="text" name="lname" value="Beckham">
     <br>
     <input type="submit" value="Submit">
+    <script>getFormNames()</script>
   </form>
 </body>
 
