@@ -4,6 +4,12 @@
 <head>
   <meta charset=utf-8 />
   <title>JS DOM paragraph style</title>
+  <script>
+    function js_style() {
+      let data = document.getElementById('text').style.color="red";
+      console.log(data);
+    }
+  </script>
 </head>
 
 <body>
@@ -12,5 +18,6 @@
     <button id="jsstyle" onclick="js_style()">Style</button>
   </div>
 </body>
+<script src="./script.js"></script>
 
 </html>
