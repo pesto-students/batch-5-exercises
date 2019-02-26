@@ -12,6 +12,7 @@ class LifeCycle extends React.Component {
   constructor(props) {
     super(props);
     this.state = { name: 'Pesto' };
+    this.handleClick = this.handleClick.bind(this);
   }
 
   // This code will be called when the component finishes mounting
@@ -20,6 +21,7 @@ class LifeCycle extends React.Component {
     // Task 1: Display a message "I'm mounted!" in developer's console when the
     //         component finishes mounting.
     //         Use `console.log` function for it.
+    console.log('I\'m mounted!');
   }
 
   componentDidUpdate(prevProps, prevState) {
@@ -29,16 +31,29 @@ class LifeCycle extends React.Component {
     //         Notice that in this lifecycle method you have an access
     //         to previous values of properties and state.
     console.log({ prevProps, prevState });
+    console.log('Updated!');
   }
 
   componentWillUnmount() {
     // Task 3: Display a message "Good night, Pesto!" in developer's
     //         console when the component unmounts.
+    console.log('Good night, Pesto!');
+  }
+
+  handleClick() {
+    this.setState({
+      name: 'Pesto tech',
+    });
   }
 
   // Task 4: Create a button which triggers ComponentDidUpdate lifecycle method on click.
   render() {
-    return (<p>Good morning, {this.state.name}!</p>);
+    return (
+      <div>
+        <p>Good morning, {this.state.name}!</p>
+        <button onClick={this.handleClick}>Update component</button>
+      </div>
+    );
   }
 }
 

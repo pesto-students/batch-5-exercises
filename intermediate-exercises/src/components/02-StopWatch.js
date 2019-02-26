@@ -18,9 +18,54 @@ import React, { Component } from 'react';
 */
 
 class StopWatch extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      status: 0, // 0 - not-started/paused/stopped, 1 - started, 2 - finished
+      seconds: 0,
+      timeoutRef: null,
+    };
+    this.startTimer = this.startTimer.bind(this);
+    this.clearTimer = this.clearTimer.bind(this);
+  }
+  startTimer() {
+    const { status } = this.state;
+    if (status === 0) {
+      const interval = setInterval(() => {
+        this.setState({
+          seconds: this.state.seconds + 1,
+          timeoutRef: interval,
+          status: 1,
+        });
+      }, 1000);
+    } else if (status === 1) {
+      clearInterval(this.state.timeoutRef);
+      this.setState({
+        status: 0,
+      });
+    }
+  }
+  clearTimer() {
+    clearInterval(this.state.timeoutRef);
+    this.setState({
+      status: 0,
+      seconds: 0,
+      timeoutRef: null,
+    });
+  }
   render() {
+    let { seconds: totalSeconds, status } = this.state;
+    const minutesPassed = Math.floor(totalSeconds / 60);
+    totalSeconds -= minutesPassed;
+
     return (
-      <div>Stop Watch</div>
+      <div>
+        <h2>Stop Watch</h2>
+        <h3>{minutesPassed}: {totalSeconds}</h3>
+        <button onClick={this.startTimer}>{status === 0 ? 'Start' : 'Stop'}</button>
+        <button onClick={this.clearTimer}>Clear</button>
+
+      </div>
     );
   }
 }
