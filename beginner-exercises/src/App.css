@@ -11,7 +11,12 @@ a {
 ul {
   list-style: none;
 }
-
+li{
+  cursor: pointer;
+}
+li:hover{
+  font-weight: bold;
+}
 .nav li a {
   font-size: 1.4em;
 }
@@ -22,5 +27,15 @@ ul {
 
 .movie-list {
   list-style: none;
+  color: black;
+}
+
+.bold{
+  font-weight: bold;
+}
+.purchased{
+  color: red;
+}
+.available{
   color: black;
 }

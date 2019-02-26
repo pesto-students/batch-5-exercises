@@ -24,9 +24,31 @@ class GroceryList extends React.Component {
     super(props);
     this.state = {
       groceries: [{ name: 'Apples' }, { name: 'KitKat' }, { name: 'Red Bull' }],
+      newItem: ''
     };
+    this.handleInput = this.handleInput.bind(this);
+    this.addItem = this.addItem.bind(this);
+    this.clearList = this.clearList.bind(this);
   }
-
+  handleInput(event) {
+    this.setState({
+      newItem: event.target.value
+    });
+  }
+  addItem() {
+    const { groceries, newItem } = this.state;
+    if (newItem.length > 0) {
+      this.setState({
+        groceries: [...groceries, { name: newItem }],
+        newItem: ''
+      });
+    }
+  }
+  clearList() {
+    this.setState({
+      groceries: []
+    });
+  }
   render() {
     const { groceries } = this.state;
     /*
@@ -37,13 +59,17 @@ class GroceryList extends React.Component {
       Below you can see how to pass properties to child components.
       We have defined a `grocery` property for each `GroceryListItem`.
     */
-    const groceriesComponents = groceries.map(item => ( // eslint-disable-line no-unused-vars
-      <GroceryListItem grocery={item} />
+    const groceriesComponents = groceries.map((item, i) => ( // eslint-disable-line no-unused-vars
+      <GroceryListItem key={i} grocery={item} />
     ));
-    // Hint: Don't forget about putting items into `ul`
     return (
       <div>
-        Put your code here
+        <ul>
+          {groceriesComponents}
+        </ul>
+        <input type="text" onChange={this.handleInput} value={this.state.newItem} />
+        <button onClick={this.addItem}>Add</button>
+        <button onClick={this.clearList}>Clear</button>
       </div>
     );
   }
@@ -55,12 +81,23 @@ class GroceryList extends React.Component {
 class GroceryListItem extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      purchased: false
+    }
+    this.togglePurchase = this.togglePurchase.bind(this);
   }
-
+  togglePurchase() {
+    const purchased = this.state.purchased;
+    this.setState({
+      purchased: !purchased
+    });
+  }
   render() {
+    const isPurchased = this.state.purchased;
+    const classList = `${isPurchased ? 'purchased' : 'available'}`;
     return (
-      <li>
-        Put your code here.
+      <li className={classList} onClick={this.togglePurchase}>
+        {this.props.grocery.name}
       </li>
     );
   }
