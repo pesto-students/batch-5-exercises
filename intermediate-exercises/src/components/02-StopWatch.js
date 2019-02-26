@@ -17,12 +17,40 @@ import React, { Component } from 'react';
 *  Clicking Clear will stop the timer if it's running and reset the lapsed time to 0.
 */
 
-class StopWatch extends Component {
+class App extends Component {
   render() {
     return (
-      <div>Stop Watch</div>
+      <div className='App'>
+        <h1>Stopwatch</h1>
+        <StopWatch />
+     </div>
     );
   }
 }
 
-export default StopWatch;
+class StopWatch extends Component {
+  state = {
+    status : false,
+    time : 0
+  };
+
+  handleClick = () => {
+    this.setState({time : 5, status: true})
+  }
+
+  resetButton = () => {
+    this.setState({time : 0, status: false});
+  }
+  render() {
+    const { status, time } = this.state;
+    return (
+      <div>
+        <p>{time}ms</p>
+        <button onClick={this.handleClick}>{status ? 'Stop' : 'Start'}</button>
+        <button onClick={this.resetButton}>Reset</button>
+      </div>
+    )
+  }
+}
+
+export default App;
