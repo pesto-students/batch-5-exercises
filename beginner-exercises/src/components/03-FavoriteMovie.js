@@ -18,21 +18,21 @@ Further reading on task #2: https://facebook.github.io/react/tips/if-else-in-JSX
 */
 
 class FavoriteMovie extends Component {
-/*
-  By default `this.state` is `null`. In `render` we are referring to
-  a specific element from the `state` object - `this.state.movie`.
-  If we don't set an initial state, we will get an error. It's impossible to fetch
-  an object key from `null`. (null.movie!!! => Error)
-
-  Think about it: you can set movie from a cookie on component initialization!
-  What else could you do here?
-*/
+  /*
+    By default `this.state` is `null`. In `render` we are referring to
+    a specific element from the `state` object - `this.state.movie`.
+    If we don't set an initial state, we will get an error. It's impossible to fetch
+    an object key from `null`. (null.movie!!! => Error)
+  
+    Think about it: you can set movie from a cookie on component initialization!
+    What else could you do here?
+  */
 
   constructor(props) {
     // Properties object is called `props`. You can access it with `this.props`.
     super(props);
     this.state = { movie: '' };
-
+    this.onMovieChange = this.onMovieChange.bind(this);
     // Warning! If we don't bind this method - we would not be able to update state.
   }
 
@@ -48,8 +48,9 @@ class FavoriteMovie extends Component {
 
   /* eslint-disable no-unused-vars, react/no-unused-state */
   onMovieChange(event) {
+    const movie = event.target.value || 'Hey there. Enter your favorite movie.';
     // Huh... There's something wrong here...
-    this.setState({ badAttribute: 'ChangeME!' });
+    this.setState({ movie });
   }
 
   render() {

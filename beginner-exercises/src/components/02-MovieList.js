@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 // We will create dynamic list of movies. Let's see how to render
 // a list of items.
@@ -12,7 +12,7 @@ class MovieList extends Component {
   // Refer to App.css for a list a classes or add one yourself
   render() {
     return (
-      <ul className="FILL ME">
+      <ul className="movie-list">
         <li>The Godfather</li>
       </ul>
     );
