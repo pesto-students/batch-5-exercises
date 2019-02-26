@@ -24,9 +24,18 @@ class GroceryList extends React.Component {
     super(props);
     this.state = {
       groceries: [{ name: 'Apples' }, { name: 'KitKat' }, { name: 'Red Bull' }],
+      newMovie: '',
     };
   }
 
+
+  saveNewMovie(event) {
+    this.setState({ newMovie: event.target.value })
+  }
+
+  addMovie() {
+    this.state.groceries.push({ name: this.state.newMovie })
+  }
   render() {
     const { groceries } = this.state;
     /*
@@ -43,7 +52,13 @@ class GroceryList extends React.Component {
     // Hint: Don't forget about putting items into `ul`
     return (
       <div>
-        Put your code here
+        <ul>
+          {groceries.map(item => ( // eslint-disable-line no-unused-vars
+            <GroceryListItem grocery={item} />
+          ))}
+        </ul>
+        <input type="text" name="newMovie" onChange={this.saveNewMovie.bind(this)} placeholder="Movie Name"></input>
+        <button onClick={this.addMovie()}> Add</button>
       </div>
     );
   }
@@ -55,12 +70,13 @@ class GroceryList extends React.Component {
 class GroceryListItem extends React.Component {
   constructor(props) {
     super(props);
+    console.log(props.grocery.name)
+    this.state = { grocery: props.grocery };
   }
-
   render() {
     return (
       <li>
-        Put your code here.
+        {this.state.grocery.name}
       </li>
     );
   }
