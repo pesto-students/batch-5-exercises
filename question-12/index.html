@@ -8,7 +8,39 @@ Use the replaceChild method to replace a node. -->
 <html>
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>JavaScript and the Document Object Model</title>
+  <script>
+    function append() {
+      let newElement = document.createElement("LI");
+      let textNode = document.createTextNode("Third element")
+      console.log(textNode);
+      newElement.appendChild(textNode);
+      document.getElementById('append').appendChild(newElement);
+    }
+    function insert() {
+      let newElement = document.createElement("LI");
+      let textNode = document.createTextNode("Third element")
+      console.log(textNode);
+      newElement.appendChild(textNode);
+      let item=document.getElementById('insert')
+      item.insertBefore(newElement,item.childNodes[0]);
+    
+    }
+    function remove() {
+      let list=document.getElementById("remove");
+      list.removeChild(list.childNodes[0]);
+    }
+    function replace() {
+        let newElement = document.createElement("LI");
+      let textNode = document.createTextNode("Third element")
+      newElement.appendChild(textNode);
+      let item=document.getElementById('replace')
+      item.replaceChild(newElement,item.childNodes[0]);
+    }
+  </script>
 </head>
 
 <body>
@@ -17,9 +49,47 @@ Use the replaceChild method to replace a node. -->
       <h1 id="title">Page title</h1>
     </div>
     <div id="content">
-      <h2>Content title</h2>
-      <p>Some copy goes here</p>
-      <p>More copy goes here</p>
+      <h2>Append Child</h2>
+      <ul id='append'>
+        <li>
+          First Element
+        </li>
+        <li>
+          Second Element
+        </li>
+      </ul>
+      <button onclick="append()">Append Child</button>
+      <h2>Insert Before</h2>
+      <ul id='insert'>
+        <li>
+          First Element
+        </li>
+        <li>
+          Second Element
+        </li>
+      </ul>
+      <button onclick="insert()"> Insert Child</button>
+      <h2>Remove Child</h2>
+      <ul id='remove'>
+        <li>
+          First Element
+        </li>
+        <li>
+          Second Element
+        </li>
+      </ul>
+      <button onclick="remove()"> Remove Child</button>
+
+      <h2>Replace Child</h2>
+      <ul id='replace'>
+        <li>
+          First Element
+        </li>
+        <li>
+          Second Element
+        </li>
+      </ul>
+      <button onclick="replace()"> Replace Child</button>
     </div>
   </div>
 </body>
