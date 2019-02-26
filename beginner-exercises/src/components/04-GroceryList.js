@@ -23,8 +23,31 @@ class GroceryList extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      groceries: [{ name: 'Apples' }, { name: 'KitKat' }, { name: 'Red Bull' }],
+      newGroceryItem: null,
+      groceries: [{ name: "Apples" }, { name: "KitKat" }, { name: "Red Bull" }]
     };
+    this.onAddingGrocery = this.onAddingGrocery.bind(this);
+    this.onEnteringGrocery = this.onEnteringGrocery.bind(this);
+    this.onClearingGrocery = this.onClearingGrocery.bind(this);
+  }
+
+  onEnteringGrocery(event) {
+    const newGroceryItem = { name: event.target.value };
+    if (newGroceryItem) {
+      this.setState({ newGroceryItem });
+    }
+  }
+
+  onClearingGrocery() {
+    this.setState({ groceries: [] });
+  }
+
+  onAddingGrocery() {
+    const { newGroceryItem, groceries } = this.state;
+    if (newGroceryItem) {
+      groceries.push(newGroceryItem);
+      this.setState({ groceries, newGroceryItem: null });
+    }
   }
 
   render() {
@@ -37,13 +60,23 @@ class GroceryList extends React.Component {
       Below you can see how to pass properties to child components.
       We have defined a `grocery` property for each `GroceryListItem`.
     */
-    const groceriesComponents = groceries.map(item => ( // eslint-disable-line no-unused-vars
-      <GroceryListItem grocery={item} />
+    const groceriesComponents = groceries.map(item => (
+      <GroceryListItem grocery={item.name} />
     ));
     // Hint: Don't forget about putting items into `ul`
     return (
       <div>
-        Put your code here
+        {groceriesComponents}
+        <div>
+          <p>Add more items from here: </p>
+          <input type="text" name="name" onChange={this.onEnteringGrocery} />
+          <button type="submit" onClick={this.onAddingGrocery}>
+            Add
+          </button>
+          <button type="submit" onClick={this.onClearingGrocery}>
+            Clear
+          </button>
+        </div>
       </div>
     );
   }
@@ -58,11 +91,8 @@ class GroceryListItem extends React.Component {
   }
 
   render() {
-    return (
-      <li>
-        Put your code here.
-      </li>
-    );
+    const { grocery } = this.props;
+    return <li>{grocery}</li>;
   }
 }
 
