@@ -23,8 +23,22 @@ class GroceryList extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      inputGrocerie: '',
       groceries: [{ name: 'Apples' }, { name: 'KitKat' }, { name: 'Red Bull' }],
     };
+  }
+  clearGroceries = () => {
+    this.setState({ groceries: [] });
+  }
+
+  addGrocery = (event) => {
+    event.preventDefault();
+    this.setState({ groceries: [...this.state.groceries, { name: this.state.inputGrocerie }] });
+    this.setState({ inputGrocerie: '' });
+  }
+
+  handleChange = (event) => {
+    this.setState({ inputGrocerie: event.target.value });
   }
 
   render() {
@@ -43,7 +57,16 @@ class GroceryList extends React.Component {
     // Hint: Don't forget about putting items into `ul`
     return (
       <div>
-        Put your code here
+        <form onSubmit={this.addGrocery}>
+          <label>
+            <input type="text" name="groceries" value={this.state.inputGrocerie} onChange={this.handleChange} />
+          </label>
+          <input type="submit" value="Add Grocerie" />
+        </form>
+        <button onClick={this.clearGroceries}>Clear Groceries</button>
+        <ul>
+          {groceriesComponents}
+        </ul>
       </div>
     );
   }
@@ -55,12 +78,18 @@ class GroceryList extends React.Component {
 class GroceryListItem extends React.Component {
   constructor(props) {
     super(props);
+    this.state = { color: 'black' };
+  }
+
+  buy = (event) => {
+    var newColor = this.state.color == 'black' ? 'red' : 'black';
+    this.setState({ color: newColor })
   }
 
   render() {
     return (
-      <li>
-        Put your code here.
+      <li style={{ color: this.state.color }} onClick={this.buy}>
+        {this.props.grocery.name}
       </li>
     );
   }
