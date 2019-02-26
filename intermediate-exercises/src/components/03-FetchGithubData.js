@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import PropTypes from 'prop-types';
-// import axios from 'axios';
+import axios from 'axios';
 
 /**
  * Axios is a promise based HTTP client for the browser and node.js.
@@ -44,19 +44,40 @@ class UsernameForm extends Component {
       repos: [],
     };
   }
+
+  getUserName(event) {
+    this.setState({ username: event.target.value });
+  }
+  async getUserRepo() {
+    try {
+      const response = await axios.get('https://api.github.com/users/ankit307/repos');
+      const repoData = response && response.data;
+      console.log(response);
+      this.setState({ repos: repoData });
+    } catch (error) {
+      console.error(error);
+    }
+  }
+  renderRepoData() {
+    if (this.state.repos.length > 0) {
+
+    }
+  }
   render() {
     return (
       <div>
         <input
           type="text"
           name="username"
+          onChange={this.getUserName.bind(this)}
         />
         <button
-          onClick={() => {}}
+          onClick={this.getUserRepo.bind(this)}
         >
           Get Repos
         </button>
-        {/* Task: Display the results here. Use GithubRepos Component.
+        {
+          /* Task: Display the results here. Use GithubRepos Component.
           It should be a list of repos of the user entered */}
       </div>
     );
