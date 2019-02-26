@@ -6,6 +6,17 @@
 <head>
   <meta charset=utf-8 />
   <title>Insert row in a table</title>
+  <script>
+    function insert_Row() {
+      let table = document.getElementById("sampleTable");
+      let row = table.insertRow(2);
+      let cell1 = row.insertCell(0);
+      let cell2 = row.insertCell(1);
+      cell1.innerHTML = "Row3 cell1"
+      cell2.innerHTML = "Row3 cell2"
+      console.log(table)
+    }
+  </script>
 </head>
 
 <body>
