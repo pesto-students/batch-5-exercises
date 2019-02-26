@@ -31,6 +31,7 @@ class StopWatch extends Component {
   startTimer = () => {
     this.setState({
       isRunning: true,
+      isPaused: false,
       timeLapse: this.state.timeLapse,
       start: Date.now() - this.state.timeLapse
     })
@@ -40,24 +41,25 @@ class StopWatch extends Component {
   }
 
   handleOnClick = () => {
-    const { isRunning, isPaused } = this.state;
-    if(!isRunning && !isPaused) {
+    const { isRunning } = this.state;
+    if(isRunning){
+      clearInterval(this.timer);
+      this.setState({isRunning:false, isPaused: true});
+    } else {
       this.startTimer();
-    } else if(isRunning && !isPaused){
-      clearInterval(this.timer)
-      this.setState({isRunning:false, isPaused: true})
     }
   }
 
   handleClear = () => {
-    this.setState({isRunning:false, isPaused: false, timeLapse: 0})
+    clearInterval(this.timer);
+    this.setState({isRunning:false, isPaused: false, timeLapse: 0});
   }
 
   render() {
     const { isRunning, timeLapse } = this.state;
     return (
       <React.Fragment>
-        <h1>{timeLapse}</h1>
+        <h1>{`${timeLapse}ms`}</h1>
         <Button isRunning={isRunning} handleOnClick={this.handleOnClick}   />
         <button name='clear' onClick={this.handleClear}>
           Clear
