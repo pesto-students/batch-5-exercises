@@ -12,6 +12,7 @@ class LifeCycle extends React.Component {
   constructor(props) {
     super(props);
     this.state = { name: 'Pesto' };
+    this.updateStateName = this.updateStateName.bind(this);
   }
 
   // This code will be called when the component finishes mounting
@@ -39,9 +40,18 @@ class LifeCycle extends React.Component {
     console.log("Good Night, Pesto!")
   }
 
+  updateStateName() {
+    this.setState({name : ''});
+  }
+
   // Task 4: Create a button which triggers ComponentDidUpdate lifecycle method on click.
   render() {
-    return (<p>Good morning, {this.state.name}!</p>);
+    return (
+      <div>
+        <p>Good morning, {this.state.name}!</p>)
+        <button onClick={this.updateStateName}>Click Me</button>
+      </div>
+    )
   }
 }
 
