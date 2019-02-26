@@ -1,11 +1,11 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mohd Hassaan",
+  "email": "sr.hassan23@gmail.com",
+  "batch": "5",
   "exercises": {
     "intermediate-exercises": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "priority-queue": {
       "completed": false,
