@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Kaushik Bokka",
+  "email": "kaushikbokka@gmail.com",
+  "batch": "05",
   "exercises": {
     "balanced-braces": {
       "completed": false,
@@ -20,7 +20,7 @@
       "rating": null
     },
     "is-empty": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "beginner-exercises": {

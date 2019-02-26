@@ -25,6 +25,7 @@ class GroceryList extends React.Component {
     this.state = {
       groceries: [{ name: 'Apples' }, { name: 'KitKat' }, { name: 'Red Bull' }],
     };
+
   }
 
   render() {
@@ -43,7 +44,6 @@ class GroceryList extends React.Component {
     // Hint: Don't forget about putting items into `ul`
     return (
       <div>
-        Put your code here
       </div>
     );
   }
@@ -60,7 +60,7 @@ class GroceryListItem extends React.Component {
   render() {
     return (
       <li>
-        Put your code here.
+        this.props;
       </li>
     );
   }
