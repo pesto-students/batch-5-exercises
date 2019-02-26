@@ -48,7 +48,7 @@ class LifeCycle extends React.Component {
   render() {
     return (
       <div>
-        <p>Good morning, {this.state.name}!</p>)
+        <p>Good morning, {this.state.name}!</p>
         <button onClick={this.updateStateName}>Click Me</button>
       </div>
     )
