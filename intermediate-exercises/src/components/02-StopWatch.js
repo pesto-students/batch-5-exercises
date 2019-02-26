@@ -18,9 +18,62 @@ import React, { Component } from 'react';
 */
 
 class StopWatch extends Component {
+  constructor(props) {
+    super(props);
+    this.state =  {
+      timeLapse: 0,
+      start: 0,
+      isRunning: false,
+      isPaused: false,
+    };
+  }
+
+  startTimer = () => {
+    this.setState({
+      isRunning: true,
+      timeLapse: this.state.timeLapse,
+      start: Date.now() - this.state.timeLapse
+    })
+    this.timer = setInterval(() => this.setState({
+      timeLapse: Date.now() - this.state.start
+    }), 1);
+  }
+
+  handleOnClick = () => {
+    const { isRunning, isPaused } = this.state;
+    if(!isRunning && !isPaused) {
+      this.startTimer();
+    } else if(isRunning && !isPaused){
+      clearInterval(this.timer)
+      this.setState({isRunning:false, isPaused: true})
+    }
+  }
+
+  handleClear = () => {
+    this.setState({isRunning:false, isPaused: false, timeLapse: 0})
+  }
+
   render() {
+    const { isRunning, timeLapse } = this.state;
     return (
-      <div>Stop Watch</div>
+      <React.Fragment>
+        <h1>{timeLapse}</h1>
+        <Button isRunning={isRunning} handleOnClick={this.handleOnClick}   />
+        <button name='clear' onClick={this.handleClear}>
+          Clear
+        </button>
+      </React.Fragment>
+    );
+  }
+}
+
+class Button extends Component {
+  render() {
+    const { isRunning, handleOnClick } = this.props;
+    return (
+      <button name='stopwatch' onClick={handleOnClick}>
+      { isRunning ? 'Stop': 'Start'}
+      </button>
     );
   }
 }
