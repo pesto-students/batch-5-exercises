@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import PropTypes from 'prop-types';
-// import axios from 'axios';
+import axios from 'axios';
 
 /**
  * Axios is a promise based HTTP client for the browser and node.js.
@@ -20,10 +20,17 @@ import React, { Component } from 'react';
  *  https://api.github.com/users/{username}/repos
  */
 /* eslint-disable react/no-unused-state */
-const GithubRepos = ({ repos }) => {
+const GithubRepos = ({ repos  }) => {
+  const formatRepo = (repo) => {
+    return `Repo Name: ${repo.full_name} `;
+  }
   return (
     <ul>
-      {/* Task: The list of repos here */}
+      {/* Task: The list of repos here */
+        [...repos.map((repo) => {
+          return <li>{formatRepo(repo)}</li>
+        })]
+      }
     </ul>
   );
 }
@@ -44,19 +51,43 @@ class UsernameForm extends Component {
       repos: [],
     };
   }
+
+  getUserName(event) {
+    this.setState({ username: event.target.value });
+  }
+  async getUserRepo() {
+    try {
+      const userDataToFetch = this.state.username;
+      const url = `https://api.github.com/users/${userDataToFetch}/repos`;
+      const response = await axios.get(url);
+      const repoData = response && response.data;
+      console.log(response);
+      this.setState({ repos: repoData });
+    } catch (error) {
+      console.error(error);
+    }
+  }
+  renderRepoData() {
+    if (this.state.repos.length > 0) {
+      return GithubRepos({ repos: this.state.repos });
+    }
+  }
   render() {
     return (
       <div>
         <input
           type="text"
           name="username"
+          onChange={this.getUserName.bind(this)}
         />
         <button
-          onClick={() => {}}
+          onClick={this.getUserRepo.bind(this)}
         >
           Get Repos
         </button>
-        {/* Task: Display the results here. Use GithubRepos Component.
+        {
+          this.renderRepoData()
+          /* Task: Display the results here. Use GithubRepos Component.
           It should be a list of repos of the user entered */}
       </div>
     );

@@ -18,9 +18,49 @@ import React, { Component } from 'react';
 */
 
 class StopWatch extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      button: false,
+      timer: 0,
+      startTime: 0,
+      minutes: 0,
+    };
+  }
+  convertMilisecondToMinutes(ms) {
+    let seconds = Math.round(ms / 1000);
+    let minutes = Math.round(seconds / 60);
+    if (minutes > 0)
+      seconds = seconds - minutes * 60;
+    return `${(minutes > 9) ? minutes : ('0' + minutes)} : ${(seconds > 9) ? seconds : ('0' + seconds)}`;
+  }
+  toggle() {
+    const buttonState = this.state.button;
+    if (this.state.timer === 0 && !buttonState) {
+      this.setState({ startTime: Date.now() });
+    }
+    if (!buttonState) {
+      let interval = setInterval(() => {
+        this.setState({ timer: (Date.now() - this.state.startTime) });
+      }, 1000);
+      this.setState({ interval: interval });
+    }
+    if (buttonState) {
+      clearInterval(this.state.interval);
+    }
+    this.setState({ button: !buttonState });
+  }
+
+
   render() {
     return (
-      <div>Stop Watch</div>
+      <div>
+        Stop Watch
+          <hr />
+        {this.convertMilisecondToMinutes(this.state.timer)}
+        <hr />
+        <button onClick={this.toggle.bind(this)}>{this.state.button ? 'Stop' : 'Start'}</button>
+      </div>
     );
   }
 }
