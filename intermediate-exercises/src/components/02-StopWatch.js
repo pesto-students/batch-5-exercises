@@ -24,7 +24,15 @@ class StopWatch extends Component {
       button: false,
       timer: 0,
       startTime: 0,
+      minutes: 0,
     };
+  }
+  convertMilisecondToMinutes(ms) {
+    let seconds = Math.round(ms / 1000);
+    let minutes = Math.round(seconds / 60);
+    if (minutes > 0)
+      seconds = seconds - minutes * 60;
+    return `${(minutes > 9) ? minutes : ('0' + minutes)} : ${(seconds > 9) ? seconds : ('0' + seconds)}`;
   }
   toggle() {
     const buttonState = this.state.button;
@@ -34,7 +42,7 @@ class StopWatch extends Component {
     if (!buttonState) {
       let interval = setInterval(() => {
         this.setState({ timer: (Date.now() - this.state.startTime) });
-      });
+      }, 1000);
       this.setState({ interval: interval });
     }
     if (buttonState) {
@@ -49,7 +57,7 @@ class StopWatch extends Component {
       <div>
         Stop Watch
           <hr />
-        {this.state.timer}
+        {this.convertMilisecondToMinutes(this.state.timer)}
         <hr />
         <button onClick={this.toggle.bind(this)}>{this.state.button ? 'Stop' : 'Start'}</button>
       </div>
