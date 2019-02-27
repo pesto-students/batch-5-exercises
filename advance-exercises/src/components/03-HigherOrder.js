@@ -9,22 +9,37 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function withMouse(Component) {
-  return Component;
+
+  return class MouseWithComponent extends React.Component {
+    state = { mouse: { x: 0, y: 0 } };
+    _onMouseMove = (e) => {
+      const { clientY, clientX } = e;
+      this.setState({ mouse: { x: clientX, y: clientY } });
+    }
+    render() {
+      return (<div onMouseMove={this._onMouseMove}  >
+        <Component mouse={this.state.mouse} />
+      </div>);
+    }
+  };
 }
 
 class App extends React.Component {
+
   render() {
     const { mouse } = this.props;
 
     return (
-      <div className="container">
-        {mouse ? (
-          <h1>
-            The mouse position is ({mouse.x}, {mouse.y})
-          </h1>
-        ) : (
-          <h1>We don&#39;t know the mouse position yet :(</h1>
-        )}
+      < div className="container" >
+        {
+          mouse ? (
+            <h1>
+              The mouse position is({mouse.x}, {mouse.y})
+          </h1 >
+          ) : (
+              <h1>We don&#39;t know the mouse position yet :(</h1>
+            )
+        }
       </div>
     );
   }
