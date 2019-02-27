@@ -1,11 +1,11 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Ankit Garg",
+  "email": "ankitgarg307@gmail.com",
+  "batch": "Batch 5",
   "exercises": {
     "advance-exercises": {
       "completed": false,
-      "rating": null
+      "rating": 5
     }
   }
 }
