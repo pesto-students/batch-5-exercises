@@ -9,7 +9,35 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function withMouse(Component) {
-  return Component;
+  class Mouse extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        mouse: {
+          x: 0,
+          y: 0
+        },
+      };
+    }
+    setMouseCoord = (event) => {
+      const x = event.clientX;
+      const y = event.clientY;
+      this.setState({
+        mouse: {
+          x: x,
+          y: y
+        }
+      });
+    }
+    render() {
+      return (
+        <div onMouseMove={this.setMouseCoord}>
+          <Component {...this.props} mouse={this.state.mouse} />
+        </div>
+      );
+    }
+  }
+  return Mouse;
 }
 
 class App extends React.Component {
@@ -23,8 +51,8 @@ class App extends React.Component {
             The mouse position is ({mouse.x}, {mouse.y})
           </h1>
         ) : (
-          <h1>We don&#39;t know the mouse position yet :(</h1>
-        )}
+            <h1>We don&#39;t know the mouse position yet :(</h1>
+          )}
       </div>
     );
   }
