@@ -1,9 +1,8 @@
 import React, { Component, Fragment } from 'react';
 
 import Navbar from './components/Navbar';
-import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact';
+import Header from './components/Header';
+import Main from './components/Main';
 
 import './styles/App.css';
 
@@ -12,12 +11,20 @@ class App extends Component {
     return (
       <Fragment>
         <Navbar />
-        <Home />
-        <About />
-        <Contact />
+        <Header />
+        <Main />
       </Fragment>
     );
   }
 }
+
+// const App = () => (
+//   <div>
+//     <Navbar />
+//     <Header />
+//     <Main />
+//   </div>
+// )
+
 
 export default App;
