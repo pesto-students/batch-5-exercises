@@ -8,9 +8,6 @@
     "test": "jest",
     "test:coverage": "jest --coverage"
   },
-  "engines": {
-    "node": ">=9.10.0"
-  },
   "devDependencies": {
     "@babel/core": "*",
     "@babel/preset-env": "*",
