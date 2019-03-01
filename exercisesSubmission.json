@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mohd Hassaan",
+  "email": "sr.hassan23@gmail.com",
+  "batch": "5",
   "exercises": {
     "path-satisfies": {
       "completed": false,
@@ -12,8 +12,8 @@
       "rating": null
     },
     "test-basics": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "test-forms": {
       "completed": false,
