@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Shivang Tripathi",
+  "email": "xshivangx@gmail.com",
+  "batch": "5",
   "exercises": {
     "merge-all": {
       "completed": false,
@@ -20,8 +20,8 @@
       "rating": null
     },
     "setup-router": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     }
   }
 }
