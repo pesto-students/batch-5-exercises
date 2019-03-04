@@ -1,19 +1,19 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mohd Hassaan",
+  "email": "sr.hassan23@gmail.com",
+  "batch": "5",
   "exercises": {
     "cookies": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "index-db": {
       "completed": false,
       "rating": null
     },
     "local-storage": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "session-storage": {
       "completed": false,
