@@ -5,7 +5,7 @@ const Post = ({ post }) => {
   return (
     <div key={post.id}>
       <h4>{post.id}</h4>
-      <div>Title: {post.title}</div>
+      <div>Title:{post.title}</div>
     </div>
   );
 };
