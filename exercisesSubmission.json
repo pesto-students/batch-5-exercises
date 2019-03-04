@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mehul Lakhanpal",
+  "email": "318097@gmail.com",
+  "batch": "5",
   "exercises": {
     "cookies": {
       "completed": false,
@@ -12,7 +12,7 @@
       "rating": null
     },
     "local-storage": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "session-storage": {
