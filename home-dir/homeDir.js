@@ -1,7 +1,7 @@
+const os = require('os');
 
-function homeDir(...args) {
-  return args;
-}
+const homeDir = os.homedir();
+
 
 export {
   homeDir,
