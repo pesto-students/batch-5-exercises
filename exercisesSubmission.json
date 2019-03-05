@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mohd Hassaan",
+  "email": "sr.hassan23@gmail.com",
+  "batch": "5",
   "exercises": {
     "filtered-names": {
       "completed": false,
@@ -12,16 +12,16 @@
       "rating": null
     },
     "http-server": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "is-stream": {
       "completed": false,
       "rating": null
     },
     "json-response-server": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "lines-in-file": {
       "completed": false,
