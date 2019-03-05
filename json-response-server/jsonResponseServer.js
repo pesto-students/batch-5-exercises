@@ -1,7 +1,11 @@
+const http = require('http');
 
-function jsonResponseServer(...args) {
-  return args;
+const requestHandler = (request, response) => {
+  response.setHeader('Content-Type', 'application/json');
+  response.end(JSON.stringify({ data: "Pesto Bootcamp!" }));
 }
+
+const jsonResponseServer = http.createServer(requestHandler);
 
 export {
   jsonResponseServer,
