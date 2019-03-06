@@ -1,11 +1,18 @@
 const express = require('express');
+const path = require('path');
+let ejs = require('ejs');
 
 const app = express();
 
 const languages = ['JavaScript', 'Haskell', 'Python'];
 
+// setting up the middleware with ejs  
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
+
+// setting up the route
 app.get('/', (req, res) => {
-  return res.send(`Hello ${languages[0]}`); // Use res.render() to render the ejs file instead of sending text response
+  return res.render('index', { languages });
 });
 
 app.listen(3000, () => {
