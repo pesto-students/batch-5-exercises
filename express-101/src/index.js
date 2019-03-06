@@ -2,8 +2,16 @@ const express = require('express');
 
 const app = express();
 
-// 1) Create Routes
+app.use(express.static('public'));
 
-// 2) Start server on port 3000
+app.get('/', function (req, res) {
+    res.send(`Hey, I am server response`)
+})
+
+const port = 3000;
+
+app.listen(port, () => {
+    console.log(`Listening to the app on port ${port}`);
+})
 
 module.exports = app;

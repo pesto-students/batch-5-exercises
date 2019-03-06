@@ -1,14 +1,14 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Kaushik Bokka",
+  "email": "kaushikbokka@gmail.com",
+  "batch": "05",
   "exercises": {
     "express-101": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "templating-engine": {
-      "completed": false,
+      "completed": true,
       "rating": null
     },
     "express-forms": {
