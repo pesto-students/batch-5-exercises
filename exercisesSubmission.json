@@ -1,15 +1,15 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Mohd Hassaan",
+  "email": "sr.hassan23@gmail.com",
+  "batch": "5",
   "exercises": {
     "titleize": {
       "completed": false,
       "rating": null
     },
     "unique-random": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "simple-todo-tdd": {
       "completed": false,
